@@ -1,0 +1,43 @@
+.captcha {
+    user-select:none;
+    position:relative;
+    width:150px;
+    height:50px;
+    background:#272727;
+    border:1.7px solid #464646;
+    font-size:24px;
+    color:orangered
+   }
+   .captcha span {
+    position:absolute;
+    top:50%;
+    transform:translateY(-50%)
+   }
+   .captcha span:nth-child(1) {
+    left:10px;
+    z-index: 1000 !important;
+   }
+   .captcha span:nth-child(2) {
+    left:32px;
+    font-size:42px;
+    z-index: 23;
+   }
+   .captcha span:nth-child(3) {
+    left:39px;
+    transform:rotate(45deg) translateY(-70%)
+   }
+   .captcha span:nth-child(4) {
+    left:85px;
+    transform:rotate(0) translateY(-60%);
+   }
+   .captcha span:nth-child(5) {
+    left:87px;
+    transform:rotate(+50deg) translateY(-60%)
+   }
+   .captcha span:nth-child(6) {
+    left:124px;
+    transform:rotate(-0) translateY(-60%);
+    font-size:30px;
+    font-family:arial
+   }
+   
